@@ -1,0 +1,171 @@
+.section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title h2 {
+  color: blue;
+  padding: 10px;
+}
+
+.title p {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.card img {
+  margin-left: 90px;
+  width: 350px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.title-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+  margin-right: 60px;
+}
+
+.title-game h2 {
+  margin-bottom: 10px;
+  margin: 20px;
+  color: blue;
+}
+
+.title-game p {
+  margin-bottom: 10px;
+  padding: 20px;
+  color: grey;
+  font-size: 18px;
+}
+
+.title-game .icon {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title-game .icon a {
+  color: black;
+}
+
+.title-game .icon h6 {
+  padding-left: 20px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.title-game .icon a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .card img {
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+  }
+
+  .title-game {
+    margin: 20px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+
+  .card img {
+    width: 250px;
+    height: 400px;
+  }
+
+  .title h2 {
+    font-size: 24px;
+  }
+
+  .title p {
+    font-size: 16px;
+  }
+
+  .title-game h2 {
+    font-size: 22px;
+  }
+
+  .title-game p {
+    font-size: 14px;
+  }
+
+  .title-game .icon h6 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card img {
+    width: 200px;
+    height: 350px;
+  }
+
+  .title h2 {
+    -size: 20px;
+
+  .title p {
+  font-size: 14px;
+  }
+      
+  .title-game h2 {
+  font-size: 18px;
+  }
+      
+  .title-game p {
+  font-size: 12px;
+  }
+      
+  .title-game .icon h6 {
+  font-size: 14px;
+  }
+}
+}
+
+
